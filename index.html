@@ -384,7 +384,7 @@
 
     // === EmailJS ===
     (function() {
-      emailjs.init('YOUR_PUBLIC_KEY');
+      emailjs.init('fIBbY_b4POgG6hGt9');
     })();
 
     const form = document.getElementById('contact-form');
@@ -396,7 +396,7 @@
       btn.textContent = 'Enviando...';
       btn.disabled = true;
 
-      emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', this)
+      emailjs.sendForm('service_o1rodic', 'template_l8fdnrv', this)
         .then(() => {
           formStatus.className = 'text-center text-sm text-green-600';
           formStatus.textContent = 'Mensaje enviado con éxito. Gracias por contactarme.';
